@@ -6,7 +6,9 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
-    "github.com/pankajhirway/ludo-server/players"
+
+	"github.com/pankajhirway/ludo-server/internal/players"
+
 	"github.com/google/uuid"
 	"github.com/gorilla/websocket"
 )
